@@ -1,0 +1,20 @@
+{
+  "name": "my-scrapers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "pre-release": "npm install && npm run lint && npm outdated"
+  },
+  "devDependencies": {
+    "eslint": "8.57.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "2.30.0"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0",
+    "fs": "0.0.1-security",
+    "path": "0.12.7",
+    "useful-toolbox-js": "github:im-steve/useful-toolbox-js#v0.14.0"
+  }
+}
